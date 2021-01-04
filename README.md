@@ -11,18 +11,15 @@ import ghpythonlib.components as gh
 clr.AddReference("Grasshopper")
 from math import *
 #from numba.decorators import jit
-
 linedata=[]
 indv1=[];indv2=[];isuv=[]
 drx=[];dry=[];drz=[]
 el=[];s=[];pl=[]
 i1=[];i2=[]
 sle_out=[]
-
 nodenum=len(pointdata)
 elemnum=int(nodenum*(nodenum-1)/2+1)
 #elemnum=int(400000)
-
 for i in range(elemnum):
     indv1.Add(int(0))
     indv2.Add(int(0))
