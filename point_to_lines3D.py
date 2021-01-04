@@ -1,3 +1,5 @@
+# Additional comments written by Oe
+# Python script for drawing diagonal and orthogonal lines in cubes
 import Rhino
 import rhinoscriptsyntax as rs
 import scriptcontext
